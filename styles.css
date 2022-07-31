@@ -26,7 +26,7 @@
 .top {
     background-color: aqua;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     padding-inline: 80px;
     justify-content: space-between;
     padding-bottom: 35px;
@@ -60,6 +60,9 @@
     border-radius: 5px;
     border-color: silver;
     padding-inline: 10px; 
+    padding-block: 10px;
+    box-shadow: 1px 1px 1px black;
+    
     
 }
 .middle { 
@@ -113,6 +116,7 @@
 .end {
     background-color: yellow;
     padding: 30px;
+    padding-inline: 90px;
     border-style: groove;
     border-color: black;
     border-radius: 2px;
