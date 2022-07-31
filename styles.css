@@ -1,8 +1,10 @@
 .header {
+    background-color: salmon;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     margin-top: -10px;
+    padding-inline: 80px;
 }
 .header-links {
     text-decoration: none;
@@ -11,4 +13,84 @@
     align-items: flex-end;
     justify-content: flex-end;
     gap: 20px;
+}
+.top {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 80px;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.cool-car {
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+.sign-up {
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    border-color: silver;
+    padding-inline: 10px;
+}
+.middle { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 80px;
+    background-color: grey;
+    padding-bottom: 30px;
+    flex-direction: column;
+
+}
+.middle-boxes {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.box1, .box2, .box3, .box4 {
+    color: red;
+    background-color: white;
+    border: 2px blue;
+    border-radius: 5%;
+    padding: 30px;
+    border-style: solid;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: maroon;
+    padding-block: 50px;
+    padding-inline: 80px;
+}
+.end {
+    background-color: yellow;
+    padding: 30px;
+}
+.bottom-box {
+    background-color: whitesmoke;
+    padding-inline: 90px;
+    padding-block: 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-button {
+    background-color: blue;
+    border-radius: 3px;
+    padding-inline: 10px;
+    color: white;
 }
