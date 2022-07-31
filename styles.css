@@ -5,6 +5,15 @@
     justify-content: space-between;
     margin-top: -10px;
     padding-inline: 80px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: black;
+}
+.logo {
+    width: 100px;
+    border-style: double;
+    border-radius: 10px;
+    box-shadow: 3px 3px 11px black
 }
 .header-links {
     text-decoration: none;
@@ -21,21 +30,37 @@
     padding-inline: 80px;
     justify-content: space-between;
     padding-bottom: 35px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: black;
 }
 
+.texttop {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: ;
+}
+.textbody {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
 .cool-car {
     width: 300px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     border-radius: 5px;
+    border-style: dashed;
+    box-shadow: 6px 6px 6px black;
 }
 .sign-up {
     color: white;
     background-color: lightseagreen;
     border-radius: 5px;
     border-color: silver;
-    padding-inline: 10px;
+    padding-inline: 10px; 
+    
 }
 .middle { 
     display: flex;
@@ -45,6 +70,9 @@
     background-color: grey;
     padding-bottom: 30px;
     flex-direction: column;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: black;
 
 }
 .middle-boxes {
@@ -53,29 +81,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-flow: row wrap;
     gap: 30px;
     justify-content: space-evenly;
 }
 .box1, .box2, .box3, .box4 {
     color: red;
     background-color: white;
-    border: 2px blue;
+    border: 10px lightblue;
     border-radius: 5%;
     padding: 30px;
     border-style: solid;
+    box-shadow: 5px 5px 5px black
 }
 .bottom {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: maroon;
     padding-block: 50px;
     padding-inline: 80px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 2px;
+}
+.trickery {
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .end {
     background-color: yellow;
     padding: 30px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 2px;
 }
 .bottom-box {
     background-color: whitesmoke;
@@ -86,6 +126,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    border-style: solid;
+    box-shadow: 5px 5px 5px black;
 }
 
 .bottom-button {
